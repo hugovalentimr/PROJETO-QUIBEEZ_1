@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: #F5980C;
+}
+header {
+    background-color: #F5980C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 84px;  
+    position: fixed;
+    z-index: 1;  
+}
+
+a {
+    font-weight: 500;
+    margin: 46px;
+    cursor: pointer;
+}
+
+
+.botao-pag1 {
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    border-radius: 16px;
+    color: #F5980C;
+    background-color: #FFFFFF;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+}
+
+.logo-header {
+    margin-right: 1080px;
+    cursor: pointer;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 25%;
+}
+
+.img-fundo {
+    width: auto;
+    height: 720px;
+    opacity: 50%;
+    position: absolute;
+    margin-top: 50%;
+}
+
+.fundo-preto {
+    background-color: #000000;
+    width: 100vw;
+    height: 1814px;
+    margin-top: 0px;  
+    position: absolute;
+    z-index: -1;
+}
+
+.logo-main {
+    position: absolute;
+    margin-top: 811px;
+}
+
+h1 {
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-top: 950px;
+}
+
+h2 {
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 1170px;
+}
+
+.retangulo1 {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 1px;
+    margin-top: 1170px;
+    margin-left: 23%;
+}
+
+.retangulo2 {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 1px;
+    margin-top: 1170px;
+    margin-right: 23%;    
+}
+
+.container-second-page {
+    display: flex;
+    flex-direction: row;
+    margin-top: 980px;
+}
+
+section {
+    margin-right: 76px;
+}
+
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.welcome-img {
+    margin-top: 62px;
+    margin-left: 120px;
+
+}
+
+.paragraph-section {
+    color: #EDEDED;
+    width: 522px;
+    height: 147px;
+    margin-top: 30px;
+    margin-left: 110px;
+    text-indent: 30px;
+}
+
+.paragraph-section2 {
+    color: #EDEDED;
+    width: 522px;
+    height: 147px;
+    margin-left: 120px;
+    text-indent: 30px;
+}
+
+.menu-today{
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #F5980C;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 138px;
+
+}
+
+aside {
+    margin-left: 456px;
+}
+
+.img-hamburguer{
+    margin-top: 220px;
+    position: relative;
+}
+
+.img-restaurant{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 1400px;
+    height: 530px;
+    width: 385px;
+    z-index: -1;
+    
+}
+
+
+
+
